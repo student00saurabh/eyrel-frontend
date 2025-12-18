@@ -1,0 +1,13 @@
+.category-row::-webkit-scrollbar {
+  height: 6px;
+}
+
+.cat-box {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
