@@ -17,71 +17,71 @@ It provides a fast, scalable, and modern user interface for an online shopping p
 
 ---
 
-## 📁 Project Structure
+## 📁 Frontend Folder Structure
 
+```text
 src/
 │
 ├── assets/
-│ ├── images/
-│ ├── icons/
-│ └── styles/
+│   ├── images/
+│   ├── icons/
+│   └── styles/
 │
 ├── components/
-│ ├── common/ # Reusable UI components
-│ ├── product/ # Product-related components
-│ ├── cart/ # Cart components
-│ ├── auth/ # Login / Register components
-│ └── admin/ # Admin dashboard components
+│   ├── common/        # Reusable UI components
+│   ├── product/       # Product-related components
+│   ├── cart/          # Cart components
+│   ├── auth/          # Login / Register components
+│   └── admin/         # Admin dashboard components
 │
 ├── pages/
-│ ├── Home.jsx
-│ ├── ProductDetails.jsx
-│ ├── Category.jsx
-│ ├── Cart.jsx
-│ ├── Wishlist.jsx
-│ ├── Orders.jsx
-│ ├── Checkout.jsx
-│ ├── Login.jsx
-│ ├── Register.jsx
-│ └── Admin.jsx
+│   ├── Home.jsx
+│   ├── ProductDetails.jsx
+│   ├── Category.jsx
+│   ├── Cart.jsx
+│   ├── Wishlist.jsx
+│   ├── Orders.jsx
+│   ├── Checkout.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   └── Admin.jsx
 │
 ├── layouts/
-│ ├── MainLayout.jsx
-│ └── AdminLayout.jsx
+│   ├── MainLayout.jsx
+│   └── AdminLayout.jsx
 │
 ├── services/
-│ ├── authAPI.js
-│ ├── productAPI.js
-│ ├── wishlistAPI.js
-│ ├── cartAPI.js
-│ └── orderAPI.js
+│   ├── authAPI.js
+│   ├── productAPI.js
+│   ├── wishlistAPI.js
+│   ├── cartAPI.js
+│   └── orderAPI.js
 │
 ├── store/
-│ ├── slices/
-│ │ ├── authSlice.js
-│ │ ├── productSlice.js
-│ │ ├── cartSlice.js
-│ │ ├── wishlistSlice.js
-│ │ └── orderSlice.js
-│ └── store.js
+│   ├── slices/
+│   │   ├── authSlice.js
+│   │   ├── productSlice.js
+│   │   ├── cartSlice.js
+│   │   ├── wishlistSlice.js
+│   │   └── orderSlice.js
+│   └── store.js
 │
 ├── context/
-│ └── ThemeContext.jsx
+│   └── ThemeContext.jsx
 │
 ├── hooks/
-│ ├── useAuth.js
-│ ├── useCart.js
-│ └── useFetch.js
+│   ├── useAuth.js
+│   ├── useCart.js
+│   └── useFetch.js
 │
 ├── router/
-│ └── AppRouter.jsx
+│   └── AppRouter.jsx
 │
 ├── utils/
-│ ├── localStorage.js
-│ └── helpers.js
+│   ├── localStorage.js
+│   └── helpers.js
 │
 └── main.jsx
-
 
 
 ---
